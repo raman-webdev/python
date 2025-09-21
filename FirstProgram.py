@@ -50,3 +50,11 @@ secNum = float(input('Enter second Number:'))
 avg = (firstNum + secNum)/ 2
 
 print('average:', avg)
+
+#WAP to input 2 int numbers, a and b.
+#Print True if a is gerater than or equal to b. if not then print flase.
+
+a = int(input('Enter a:'))
+b = int(input('Enter b:'))
+
+print(a>=b)
