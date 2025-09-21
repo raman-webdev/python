@@ -26,3 +26,27 @@ print(divide)
 print(remain)
 print(pow)
 
+
+#write a program to input two numbers and print thier sum
+
+a = int(input('Enter first number:'))
+b = int(input('Enter second number:'))
+
+sum = a + b
+
+print('total sum:', sum)
+
+#WAP to input the side of a square  and print its area.
+
+side = int(input('Enter the side of square:'))
+area = side**2
+print('area of square is:', area)
+
+#WAP to input 2 floating point numbers and print thier averages
+
+firstNum = float(input('Enter first Number:'))
+secNum = float(input('Enter second Number:'))
+
+avg = (firstNum + secNum)/ 2
+
+print('average:', avg)
