@@ -46,3 +46,4 @@ print(len(name))
 str8 = "I am $Raman and I have balance of $4900 and debt of $100"
 print(str8)
 print(str8.count("$"))
+
