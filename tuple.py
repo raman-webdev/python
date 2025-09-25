@@ -12,3 +12,4 @@ print(grade.count("A"))
 garde1 = ["C", "D", "A", "A", "B", "B", "A"]
 garde1.sort()
 print(garde1)
+
