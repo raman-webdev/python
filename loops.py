@@ -44,3 +44,23 @@ for char in characters:
     print("first non repeated char is:", char)
     break
 
+
+# factorial calculator
+  # problem: compute the factorial of a number using while loop.
+
+user_number = int(input("Enter a number:"))
+factorial = 1
+
+while user_number != 0:
+  factorial *= user_number
+  user_number -= 1
+print(factorial)
+
+# reverse a string
+
+user_input = str(input("Enter something:"))
+reversed_str = ''
+
+for char in user_input:
+  reversed_str = char + reversed_str
+print(reversed_str)
