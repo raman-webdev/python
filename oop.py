@@ -145,3 +145,4 @@ print(plane1.move())
 
 boat1 = Boat("Titanic", "1956", "large")
 boat1.move()
+
